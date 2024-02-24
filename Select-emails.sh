@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed -n 's/.*\b\([A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]\{2,\}\)\b.*/\1/p' students-list_1023.txt > student-emails.txt
+sed -n 's/.*\b\([A-Za-z0-9._%+-]+@gmail\.com\)\b.*/\1/p' students-list_1023.txt > student-emails.txt
